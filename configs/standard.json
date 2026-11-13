@@ -1,0 +1,7 @@
+{
+  "prepare_dir": "~/opendm-prepared",
+  "image_archive": "~/opendm-prepared/opendm-dm05-with-weights.tar",
+  "agent_config": "agent/config/opendm.local.yaml",
+  "fixed_task": false,
+  "integration_report": "outputs/integration.json"
+}

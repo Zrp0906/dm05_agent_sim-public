@@ -1,0 +1,16 @@
+# Base dependencies verified with standard CPython 3.11.14 on 2026-08-13.
+numpy==2.4.6
+opencv-python-headless==5.0.0.93
+requests==2.34.2
+PyYAML==6.0.3
+loguru==0.7.3
+Pillow==12.3.0
+piper-sdk==0.6.2
+fastapi==0.141.1
+uvicorn==0.52.1
+websockets==17.0.1
+scipy==1.17.1
+pydantic==2.13.4
+
+# MuJoCo simulation
+mujoco==3.17.0
