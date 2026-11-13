@@ -1,0 +1,33 @@
+# macOS metadata
+.DS_Store
+
+# Python caches and local virtual environments
+__pycache__/
+*.py[co]
+/.venv/
+/venv/
+
+# Local environment configuration
+/.env
+/.env.*
+!/.env.example
+/agent/config/direct_local_config.yaml
+/agent/config/*.local.yaml
+/agent/config/*.local.yml
+
+# Runtime output
+/logs/
+/airbot_logs/
+/outputs/
+
+# Local workflow configuration
+/configs/*.local.json
+
+# OpenDM downloads, weights and exported images
+/opendm-prepared/
+/checkpoints/
+/opendm-*.tar
+/opendm-*.tar.gz
+.opendm-export-*/
+*.safetensors
+*.part
